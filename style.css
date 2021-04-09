@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     box-sizing: border-box;
@@ -11,10 +12,13 @@
 header a img.logo{
     width: 70px;
     height: 70px;
+    position: relative;
+    left: 4rem;
+    align-items: baseline;
 }
 
 li, a{
-    font-family: Roboto, sans-serif;
+    font-family: poppins, sans-serif;
     font-weight: 500;
     font-size: 1em;
     color: white;
@@ -25,7 +29,6 @@ li, a{
 header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 nav.menuNav ul li.btn{
@@ -36,4 +39,15 @@ nav.menuNav ul li.btn{
 nav.menuNav ul li.btn a:hover{
     transition: 0.3s ease;
     color: tomato;
+}
+
+header nav.menuNav ul{
+    margin-right: 1px;
+    position: relative;
+    right: 12rem;
+    margin-top: 1rem;
+}
+
+nav.menuNav{
+    align-items:baseline;
 }
